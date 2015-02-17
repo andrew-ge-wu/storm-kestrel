@@ -12,7 +12,7 @@ By default, `KestrelThriftSpout` emits 1-tuples containing a byte array as its o
 
 ## Maven
 
-storm-kestrel is hosted on the Clojars maven repo. To include it as a dependency in your project, add Clojars as a Maven repository to your pom.xml with the following snippet:
+backtype.storm-kestrel is hosted on the Clojars maven repo. To include it as a dependency in your project, add Clojars as a Maven repository to your pom.xml with the following snippet:
 
 ```xml
 <repository>
@@ -21,12 +21,12 @@ storm-kestrel is hosted on the Clojars maven repo. To include it as a dependency
 </repository>
 ```
 
-Then, you can add storm-kestrel as a dependency like so:
+Then, you can add backtype.storm-kestrel as a dependency like so:
 
 ```xml
 <dependency>
-  <groupId>storm</groupId>
-  <artifactId>storm-kestrel</artifactId>
+  <groupId>backtype.storm</groupId>
+  <artifactId>backtype.storm-kestrel</artifactId>
   <version>0.7.2-SNAPSHOT</version>
 </dependency>
 ```

@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -rf gen-javabean
 rm -rf jvm/net/lag/kestrel/thrift
 thrift7 --gen java:beans,hashcode,nocamel kestrel.thrift
